@@ -1,7 +1,8 @@
 # GitHub Action: Check Required Pull Request Approvals
 
 [![Linting][img-gh-action-lint-badge]][gh-action-lint]
-[![Validate Built Files][img-gh-action-vbf-badge]][gh-action-vbf]
+[![Validate Built Files][img-gh-action-vbf-badge]][gh-action-lint]
+
 [![Code Vulnerability Scanning][img-gh-action-cvs-badge]][gh-action-cvs]
 
 Custom GitHub action to check for required pull request approvals for AppDev
@@ -75,7 +76,7 @@ See the actions tab in the consuming repository for runs of this action! :rocket
 
 [gh-action-cvs]: ../../../actions/workflows/code-analysis.yml
 [gh-action-lint]: ../../../actions/workflows/linting.yml
-[gh-action-vbf]: ../../../actions/workflows/validate-built-files.yaml
+[gh-action-vbf]: ../../../actions/workflows/validate-built-files.yml
 [img-gh-action-cvs-badge]: ../../../actions/workflows/code-analysis.yml/badge.svg
 [img-gh-action-lint-badge]: ../../../actions/workflows/linting.yml/badge.svg
 [img-gh-action-vbf-badge]: ../../../actions/workflows/validate-built-files.yml/badge.svg
