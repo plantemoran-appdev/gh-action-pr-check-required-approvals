@@ -1,0 +1,23 @@
+name: Validate Built (dist/) Files for Custom Action
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - 'src/**'
+      - 'dist/**'
+
+  pull_request:
+    branches:
+      - develop
+    paths:
+      - 'src/**'
+      - 'dist/**'
+
+  workflow_dispatch:
+
+jobs:
+  lint-source-code:
+    name: Lint source code
+    uses: plantemoran-appdev/.github/.github/workflows/validate-built-files-for-custom-action-reuse.yml@develop
