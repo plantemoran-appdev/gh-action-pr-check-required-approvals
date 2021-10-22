@@ -1,7 +1,7 @@
 # GitHub Action: Check Required Pull Request Approvals
 
 [![Linting][img-gh-action-lint-badge]][gh-action-lint]
-[![Validate Built Files][img-gh-action-vbf-badge]][gh-action-lint]
+[![Validate Built Files][img-gh-action-vbf-badge]][gh-action-vbf]
 
 [![Code Vulnerability Scanning][img-gh-action-cvs-badge]][gh-action-cvs]
 
