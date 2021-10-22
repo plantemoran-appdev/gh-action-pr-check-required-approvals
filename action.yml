@@ -1,0 +1,15 @@
+name: 'Required Pull Request Approval Checks for AppDev'
+description: 'Checks for required pull request approvals for AppDev'
+author: 'Michael Obrycki'
+
+inputs:
+  githubToken:
+    description: The GitHub token from the workflow context
+    required: true
+  additionalAccessPat:
+    description: The PAT that will be used for additional access (must have read:org permissions)
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
